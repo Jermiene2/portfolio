@@ -1,0 +1,140 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    top: 0;
+    position: sticky;
+    line-height: 60px;
+    background-color: #007C7F;
+    border-bottom: 2px solid #4C4C6D;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+nav ul li a {
+    color: #F3F4F6;
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFB74D;
+}
+
+.home {
+    padding: 50px 0;
+    background: #F3F4F6;
+}
+
+.home .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .about-content img {
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.home p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #FFB74D;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+.cta-button:hover {
+    background-color: #007C7F;
+}
+
+.gallery {
+    padding: 50px 0;
+    background: #F3F4F6;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    border: 14px solid #007C7F;
+    border-radius: 20px;
+}
+
+.pics img {
+    width: 100%;
+    height: auto;
+
+}
+
+.testimonials {
+    background-color: #007C7F;
+    color: white;
+    padding: 50px 20px;
+}
+
+.testimonials h1 {
+    margin-bottom: 30px;
+}
+
+.testimonials blockquote {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.contact {
+    padding: 50px 20px;
+    background: #F3F4F6;
+}
+
+.icons a {
+    color: #007C7F;
+    font-size: 30px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.icons a:hover {
+    color: #FFB74D;
+}
+
+footer {
+    background-color: #333;
+    color: #F3F4F6;
+    padding: 20px 0;
+    text-align: center;
+}

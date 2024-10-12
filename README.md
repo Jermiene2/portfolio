@@ -23,5 +23,5 @@ The goal of this project is to create a visually appealing and user-friendly web
 You can view the live website at this link: [Live Website](https://jermiene2.github.io/portfolio)
 
 To clone or download the project:
-1. Clone this repository: `git clone https://github.com/your-github-username/your-repo-name.git`
+1. Clone this repository: `git clone https://github.com/jermiene2.github.io/portfolio.git`
 2. Open the `index.html` file in your web browser.
